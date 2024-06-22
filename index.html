@@ -22,14 +22,70 @@
 
 <body>
 
-    <!-- Barra de Navegacion -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Biblioteca Virtual ECAB</a>
+    <!-- esta sección esta destinada para la barra de navegacion -->
+    <nav id="Inicio" class="navbar navbar-expand-lg">
+        <div class="container">
+            <img src="assets/images/logo.png" class="logo-brand" alt="logo">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="assets/images/menu.svg">
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Enlaces">Enlaces Destacados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Redes">Redes Sociales</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
-
+    <!-- esta sección esta destinada para la barra de navegacion -->
 <br>
+
+<!-- Card de la portada dela biblioteca -->
+<div class="container-fluid text-center">
+    <div class="row">
+        <div class="col-sm-12 col-md-4">
+            <div class="card">
+                <img src="assets/images/tercero.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">La noche de los Generales LA VERDAD SOBRE EL GOLPE DEL 11-A</h5>
+                  <p class="card-text">José Ignacio López Vigil</p>
+                  <a href="assets/images/tercero.pdf" target="_blank" class="btn btn-primary">Descarga</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <div class="card">
+                <img src="assets/images/primero.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">La Rebelión de los Gerentes y el petróleo Venezolano</h5>
+                  <p class="card-text">Jorge Dávila</p>
+                  <a href="assets/images/primero.pdf" target="_blank" class="btn btn-primary">Descarga</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <div class="card">
+                <img src="assets/images/segunda.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Golpe de Radio LOS TRES DÍAS QUE TRASMITIMOS PELIGROSAMENTE</h5>
+                  <p class="card-text">José Ignacio López Vigil</p>
+                  <a href="assets/images/segundo.pdf" target="_blank" class="btn btn-primary">Descarga</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<!-- Card de la portada dela biblioteca -->
 
 <!-- Card de la portada dela biblioteca -->
     <div class="container-fluid text-center">
@@ -57,14 +113,18 @@
         <div class="row">
             <div class="col-sm-12 col-md-4">
                 <h5>Librero</h5>
+                <br>
                 <ul class="list-group">
                     <li class="list-group-item"><a href="Leyes.html">Leyes y Reglamentos</a></li>
                     <li class="list-group-item"><a href="Metodología para la investigación.html">Metodología para la investigación</a></li>
+                    <li class="list-group-item"><a href="Literatura.html">Literatura</a></li>
                   </ul>
             </div>
             <br>
+            <br>
             <div class="col-sm-12 col-md-8">
                 <h5>Publicaciones destacadas</h5>
+                <br>
                 <div class="card">
                     <img src="assets/images/hero.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -80,7 +140,7 @@
 <br><br>
 
 <!-- Pie de pagina -->
-    <footer class="bgDark">
+    <footer id="Redes" class="bgDark">
         <div class="container">
             <h4>Biblioteca Virtual de la Escuela de Caballería y Blindados</h4>
             <h5>BVECAB</h5>
