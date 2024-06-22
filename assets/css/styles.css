@@ -18,6 +18,8 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -359,3 +361,7 @@ footer .list-inline .list-inline-item {
 @media (min-width: 992px) and (max-width: 1199.98px) { }
 
 @media (min-width: 1200px) { }
+
+.filtro{
+    display: none;
+}
