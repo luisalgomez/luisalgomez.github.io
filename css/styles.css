@@ -1,0 +1,39 @@
+/* Inicio Sección Misiones */
+#missions {
+    background-color: #ffffff; /* Fondo blanco */
+}
+
+#missions h2 {
+    font-size: 2.5rem;
+}
+
+#missions .mission {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1.5s ease-out, transform 1.5s ease-out; /* Aumenta la duración de la transición */
+}
+
+#missions .mission.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+/* Fin Sección Misiones */
+
+/* Inicio Sección de Contacto */
+#contacto {
+    background-color: #ffffff;
+}
+
+#contacto h2 {
+    font-size: 2.5rem;
+}
+
+#contacto .form-group label {
+    font-weight: bold;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+/* Fin Sección de Contacto */
