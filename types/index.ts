@@ -1,0 +1,1 @@
+// Este archivo exporta tipos e interfaces que pueden ser utilizados en el proyecto, especialmente si se está utilizando TypeScript para definir tipos para los elementos del DOM o las funciones.
